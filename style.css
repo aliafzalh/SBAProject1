@@ -3,6 +3,9 @@
       h1 {font-family: Arial, Helvetica, sans-serif;
           text-align: center;}
           /* background-color: brown;} */
+          h1:hover{
+            background-color:skyblue;
+          }
 
         nav{ background: rgb(110, 51, 73);
               padding: 1rem;
@@ -27,11 +30,12 @@
 button:hover{
     background-color: brown;
 } 
-.intro:hover{
-    background-image: url(../images/mount.png);
-    background-size: auto;
-    height: 100vh;
-  /* background-repeat: no-repeat; */}
+body{
+    background-image: url(./images/mountWater.png);
+ 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
 
   table{
     font-size: medium;
