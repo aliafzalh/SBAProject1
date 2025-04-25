@@ -1,0 +1,66 @@
+
+
+      h1 {font-family: Arial, Helvetica, sans-serif;
+          text-align: center;}
+          /* background-color: brown;} */
+
+        nav{ background: rgb(110, 51, 73);
+              padding: 1rem;
+            }
+
+            nav ul { list-style-type: none;
+                     margin: 0;
+                     padding: 0;
+                     display: flex;
+                     justify-content: space-around; 
+                      
+                    }
+            a {color: wheat;}
+
+
+
+ /*Home page intro */
+.intro{ 
+    text-align: center;
+    /* background: skyblue; */
+}
+button:hover{
+    background-color: brown;
+} 
+.intro:hover{
+    background-image: url(../images/mount.png);
+    background-size: auto;
+    height: 100vh;
+  /* background-repeat: no-repeat; */}
+
+  table{
+    font-size: medium;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+}
+caption{
+    margin: 20px;}
+    
+
+table:hover{
+    background-color: wheat;
+}
+
+/*Sign up page*/
+        
+h1, h2{
+   text-align: center;
+   background-color: brown;
+}
+.container{
+         display: block;
+         text-align: center;}
+
+     .container div :hover{ color:rgb(211, 13, 46);}
+
