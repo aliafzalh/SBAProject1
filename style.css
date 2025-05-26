@@ -27,9 +27,8 @@
     text-align: center;
     /* background: skyblue; */
 }
-button:hover{
-    background-color: brown;
-} 
+
+
 body{
     background-image: url(./images/mountWater.png);
  
@@ -68,3 +67,14 @@ h1, h2{
 
      .container div :hover{ color:rgb(211, 13, 46);}
 
+/* Adding new css  for transition*/
+
+button {
+  background-color: yellow;
+  transition: background-color 2s ease;
+}
+
+button:hover {
+  background-color: green;
+ 
+}
